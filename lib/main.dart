@@ -1,3 +1,4 @@
+// See README.md for documentation
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
@@ -8,6 +9,7 @@ import 'utils/providers/detection_provider.dart';
 import 'utils/providers/saved_image_provider.dart';
 import 'utils/providers/theme_provider.dart';
 
+// Creat a variable for list of cameras on device
 List<CameraDescription>? cameras;
 
 Future<void> main() async {
